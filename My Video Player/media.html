@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MPHC Player</title>
+    <script defer src="media.js"></script>
+    <link rel="stylesheet" href="media.css">
+    <script src="https://kit.fontawesome.com/7730032454.js" crossorigin="anonymous"></script>
+</head>
+<body>     
+    <div class="video_container">
+        <div class="video">
+            <video class="myvideo"  src="/mediaplayer/videos/NEW_ _VIZE  x Alan Walker – Space Melody (Edward Artemyev) ft. Leony (Official Lyric Video)(720P_HD)_1.mp4">
+            </video>
+            <div class="video_controls">
+                <div class="progress_bar">
+                    <div class="progress">
+
+                    </div>
+                </div>
+                <!-- icons -->
+                <div class="buttons">
+                    <button class="play"><i class="far fa-play-circle fa-2x"></i> </button>
+                    <button class="slowbackward"><i class="fas fa-fast-backward"></i></button>
+                    <button class="backward"><i class="fas fa-backward"></i></button>
+                    <button class="forward"><i class="fas fa-forward"></i></button>
+                    <button class="fastforward"><i class="fas fa-fast-forward"></i></button>
+                        <button class="mute"><i class="fas fa-volume-up"></i></button>
+                        
+                        <div class="range">
+                            <input type="range" id="inputRange" max="100" value="10">
+                            <span id="rangeValue">0</span>
+                            <button class="fullscr"><i class="fas fa-expand-arrows-alt fa-1x"></i></button>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
