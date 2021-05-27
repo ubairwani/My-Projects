@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.calculator_container{
+    display: flex;
+    justify-content: center;
+    padding-top:5rem;
+    background: #D1D1D1;
+    height:100vh;
+}
+.calculator{
+    height:30rem;
+    width: 30rem;
+    border-radius: 23px;
+    background: linear-gradient(145deg, #bcbcbc, #e0e0e0);
+    box-shadow: -7px -10px 31px -4px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+.calculator_title{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}
+.screen{
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+}   
+.screen input{
+    height: 50px;
+    border-radius: 26px;
+    background: #d1d1d1;    
+    border-radius: 26px;
+    background: #d1d1d1;
+    box-shadow: inset 5px 5px 8px #b4b4b4,
+            inset -5px -5px 8px #eeeeee;
+    outline:none;
+    border: none;
+    
+}
+
+.buttons{
+    padding: 10px 50px;
+    display:inline-block;
+
+}
+.buttons button{
+    padding: 10px;
+    font-size:13px;
+    border-radius: 24px;
+    /* box-shadow: 5px 0px 51px -4px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1); */
+    /* background: linear-gradient(145deg, #F7FFFF, #ADB5C4); */
+    border-radius: 20%;
+    background: linear-gradient(145deg, #c4c4c4, #ADB5C4);
+    border-radius: 20%;
+    box-shadow: 2.1px 2.1px 1px #898E9B, -2.1px -2.1px 1px #D1D1D1;
+    border:none;
+    outline:none;
+    font-family: 'Mukta',sans-serif;
+    width: 60px;
+    font-weight: bold;
+    display: inline-block;
+    float:left;
+
+}
+#btns{
+    margin:8px 7px;
+    
+}
+.equalto button{
+    width: 135px;
+}
+#screenInput{
+    text-align:right;
+    font-size: larger;
+    font-family: 'Mukta',sans-serif;
+    font-weight: bold;
+    padding: 5px 15px 0 0;
+}
