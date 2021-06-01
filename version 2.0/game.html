@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <script src="https://kit.fontawesome.com/7730032454.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="game.css">
+    <script defer src="game.js"></script>
+</head>
+<body>
+    <div class="game_container">
+        <div class="wins_container">
+           
+            <div class="winner">
+                <H2 id="winner">WINNER</H2><p id="wins">X</p>
+            </div>
+            <div class="btn">
+                <button><a href="game.html">Restart game</a></button>
+                
+            </div>
+        </div>
+        <div class="game">
+            <div class="row rows">
+                <div class="content" id="pos" onclick="checkWinner(0,0)"></div>
+                <div class="content" id="pos" onclick="checkWinner(0,1)"></div>
+                <div class="content cplus" id="pos" onclick="checkWinner(0,2)"></div>
+            </div>
+            <div class="row rows">
+                <div class="content" id="pos" onclick="checkWinner(1,0)"></div>
+                <div class="content" id="pos" onclick="checkWinner(1,1)"></div>
+                <div class="content cplus" id="pos" onclick="checkWinner(1,2)"></div>
+            </div>
+            <div class="row cplus rows">
+                <div class="content" id="pos" onclick="checkWinner(2,0)"></div>
+                <div class="content" id="pos" onclick="checkWinner(2,1)"></div>
+                <div class="content cplus" id="pos" onclick="checkWinner(2,2)"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
