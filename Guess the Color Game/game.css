@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.game_container{
+    height: 100vh;
+    background: rgb(20, 189, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    border: 5px solid rgba(17, 17, 17,0.235);
+    border-top:none;
+    border-left: none;
+    border-right: none;
+
+}
+.content{
+    width: 20px;
+    height: 40px;
+    padding:15px 30px;
+    font-size: 25px;
+    border: 5px solid rgba(17, 17, 17, 0.235);
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    cursor: pointer;
+    
+}
+.cplus{
+    border:none;
+}
+.fa-times{
+    color:#545454;
+}
+.fa-opera{
+    color:white;
+}
+/* wins container */
+.wins_container{
+    
+    display: none;
+   position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    height:100vh;
+    width:100vw;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:60px 0 0 0;
+    
+}
+.btn button{
+   
+    
+    
+    padding:10px 0;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.btn button a{
+    text-decoration: none;
+    font-size: 20px;
+    padding:10px 20px;
+    color: crimson;
+}
+.winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:60px 0 0 0;
+    color:crimson;
+}
+#winner{
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#wins{
+    font-size: 75px;
+    margin:0 50px;
+    color: rgb(255, 255, 255);
+}
