@@ -1,1 +1,6 @@
 # My-Projects
+Guess Color  a is small interactive game in which the player Selcet the given color. Basically, You can think it like mixing of four different random colors. but there is only one correct.
+AFter if color is matched to the given color . then the player's score is incremented by 1 or if it is incorect then the player's score in decremented by -1;
+if a player makes high score than other players . so in this case players highest score in saved.
+if a player restarts the game highest score is shown above.
+it is much more intractive than other color games.
