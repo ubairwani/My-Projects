@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: #dfdfdf;
+}
+.game_container{
+    padding-top:3rem;
+    /* align-items: center; */
+    
+}
+.color_value{
+    display: flex;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding:10px 20px;
+    justify-content: center;
+}
+.value_name{
+    display:flex;
+}
+.value{
+    padding:5px 20px;
+}
+.option_container{
+    margin-top: 5rem ;
+}
+.options{
+   
+    display: flex;
+    padding: 10px 20px;
+}
+.opt{
+    padding: 10px 20px;
+
+}
+.colors{
+    width: 10rem;
+    height: 20vh;
+    border-radius: 20px;
+}
+.option{
+    
+    display: flex;
+    padding: 10px 20px;
+}
+.colors{
+    background: rgb(122, 51, 65);
+}
+.score{
+    display:flex;
+    justify-content: center;
+}
+.score h2{
+    padding: 10px 0;
+}
+.score_value{
+    padding:5px 20px;
+    font-family: cursive;
+    font-size: 25px;
+}
+.level{
+    display: flex;
+    justify-content: center;
+}
+.level_value{
+    font-family: cursive;
+    padding:0 20px;
+}
+/* buttons */
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.3rem ;
+}
+.buttons button{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 0 30px;
+    background: rgb(255, 0, 76);
+    color:rgb(63, 63, 63);
+    border:none;
+    border-radius: 29px;
+background: linear-gradient(145deg, #f0f0f0, #b49e9e9d);
+box-shadow:  5px 5px 14px #5a5a5a,
+             -5px -5px 14px #ffffff;
+}
+.buttons a{
+    text-decoration: none;
+    color:rgb(236, 49, 16)
+}
+.loading{
+    position:absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+.container{
+    display:none;
+}
